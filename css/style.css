@@ -8,3 +8,29 @@ body {
     font-family: sans-serif;
     font-size: 20px;
 }
+
+.flex {
+    display: flex;
+}
+
+
+/* Intestazione pagina e navigazione */
+
+.intestazione {
+    background-color: #3161e0;
+    color: white;
+    margin: 0 auto;
+}
+
+
+/* end Intestazione pagina e navigazione */
+
+
+/* Contenuto pagina */
+
+/* end Contenuto pagina */
+
+
+/* Info utili */
+
+/* end Info utili */
