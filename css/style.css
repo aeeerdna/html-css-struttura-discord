@@ -1,3 +1,5 @@
+/* Impostazione pagina */
+
 * {
     box-sizing: border-box;
     padding: 0px;
@@ -9,19 +11,72 @@ body {
     font-size: 20px;
 }
 
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
 .flex {
     display: flex;
 }
 
+.space-between {
+    justify-content: space-between;
+}
 
-/* Intestazione pagina e navigazione */
+/* end Impostazione pagina */
 
-.intestazione {
-    background-color: #3161e0;
+
+/* Sezioni */
+
+header {
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
     color: white;
     margin: 0 auto;
 }
 
+footer {
+    background-color: #23272a;
+    color: white;
+    padding-top: 50px;
+}
+
+/* end Sezioni */
+
+
+/* Intestazione pagina e navigazione */
+
+.menù-navigazione {
+    padding: 20px;
+}
+
+/* #logo {
+    justify-content: flex-start;
+}
+
+#pulsante-accedi {
+    justify-content: flex-end;
+} */
+
+
+h1 {
+    padding-bottom: 30px;
+    font-size: 3rem;
+}
+
+.intestazione {
+    text-align: center;
+}
+
+.intestazione-container {
+    padding-top: 75px;
+    padding-bottom: 50px;
+}
+
+.pulsanti-scarica {
+    padding-bottom: 150px;
+}
 
 /* end Intestazione pagina e navigazione */
 
