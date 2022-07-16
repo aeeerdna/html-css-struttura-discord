@@ -1,0 +1,122 @@
+/* generics */
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: white;
+}
+
+/* utilities */
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+
+/* flex */
+.flex {
+    display: flex;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.grow {
+    flex-grow: 1;
+}
+
+
+/* Titolo e barra di navigazione */
+header {
+    background-color: rgb(39, 129, 255);
+}
+
+.navigazione {
+    padding: 10px;
+}
+
+.presentazione-app {
+    text-align: center;
+}
+
+.presentazione-app-contenuto {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 50px 0px;
+}
+
+/* end Titolo e barra di navigazione */
+
+
+/* Presentazione sito */
+.sezioni-pari {
+    background-color: rgb(196, 190, 190);
+}
+
+#call-to-action,
+#community,
+#chiamate,
+#chat-gruppo {
+    padding: 75px 0px;
+}
+
+#call-to-action .space-between>*,
+#community .space-between>*,
+#chiamate .space-between>*,
+#chat-gruppo .space-between>* {
+    flex-basis: 50%;
+    padding: 0px 5px;
+    flex-shrink: 0;
+}
+
+/* end Presentazione sito */
+
+
+/* Info azienda e link utili */
+footer {
+    background-color: rgb(53, 50, 50);
+    color: white;
+    padding-top: 50px;
+}
+
+#profili-social {
+    flex-basis: 350px;
+    flex-shrink: 0;
+}
+
+footer .column {
+    flex-basis: calc(25% - 20px);
+    padding: 0px 10px;
+}
+
+footer hr {
+    margin: 25px 0px;
+}
+
+/* end Info azienda e link utili */
+
+
+/* Box colorati */
+.box-colorati .box {
+    background-color: rgb(255, 68, 0);
+    display: inline-block;
+    width: 350px;
+    height: 350px;
+}
